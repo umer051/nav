@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "nav",
+    "slug": "nav",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.omer1234.travel"
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAo0-IwAm0tOz9I5c2Z6BQPoC78Pf1tBXs"
+        }
+      },
+      "package": "com.omer1234.travel"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
